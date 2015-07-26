@@ -1,5 +1,5 @@
 # PongGame
-A simple pong game made in java with LibGdx library.
+A simple and fun game made in java with LibGdx library.
 
 
 
