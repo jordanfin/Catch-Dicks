@@ -9,6 +9,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 
 import java.util.ArrayList;
 
@@ -44,7 +45,8 @@ public class MyGdxGame extends ApplicationAdapter {
 	//fin del juego
 	boolean endGame;
 
-	//Stage 
+	//Stage
+	Stage stage;
 	
 	@Override
 	public void create () {
